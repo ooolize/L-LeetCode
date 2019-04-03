@@ -3,7 +3,7 @@
 ## 可以优化的
 [3. Longest Substring Without Repeating Characters]()
 ## 已完成的
-[1. Two Sum]()
+[1. Two Sum](https://github.com/ooolize/L-LeetCode/edit/master/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md)
 [2. Add Two Numbers]()
 
 1.
