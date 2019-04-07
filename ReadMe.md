@@ -14,6 +14,8 @@
 [6. ZigZag Conversion.](https://github.com/ooolize/L-LeetCode/blob/master/6.%20ZigZag%20Conversion.md)
 
 [7. Reverse Integer](https://github.com/ooolize/L-LeetCode/blob/master/7.%20Reverse%20Integer.md)
+
+[9. Palindrome Number](https://github.com/ooolize/L-LeetCode/blob/master/9.%20Palindrome%20Number.md)
 ## 需要复习的知识点
 * 排序
 * dp
