@@ -10,6 +10,8 @@
 [12. Integer to Roman.](https://github.com/ooolize/L-LeetCode/blob/master/12.%20Integer%20to%20Roman.md)
 
 [11. Container With Most Water.](https://github.com/ooolize/L-LeetCode/blob/master/11.%20Container%20With%20Most%20Water.md)
+
+[6. ZigZag Conversion.](https://github.com/ooolize/L-LeetCode/blob/master/6.%20ZigZag%20Conversion.md)
 ## 需要复习的知识点
 * 排序
 * dp
