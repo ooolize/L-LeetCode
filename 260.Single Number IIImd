@@ -37,7 +37,7 @@ public:
         int label=i&(-i);
         
         for(auto p:nums){
-            if((label&p)==0) res[0]^=p;
+            if((label&p)==0) res[0]^=p;//该组有一个单独的剩下都是成对的
             else  res[1]^=p;
         }
         return res;
