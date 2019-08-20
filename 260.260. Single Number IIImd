@@ -1,0 +1,46 @@
+### 题目
+[260. Single Number III](https://leetcode-cn.com/problems/single-number-iii/submissions/)
+### 思路
+16ms 79.54%
+
+用set存储元素，如果再次找到该元素，就从set中删除该元素。
+
+24ms 30.57%
+
+用[位运算](https://leetcode-cn.com/problems/single-number-iii/solution/dai-xiang-xi-zhu-jie-de-fen-zu-yi-huo-jie-fa-by-pe)，常数时间
++ 使用位运算要注意括号
+### 代码
+```c++
+class Solution {
+public:
+    vector<int> singleNumber(vector<int>& nums) {
+        unordered_set<int> s;
+        for(auto &p:nums){
+            if(s.find(p)==s.end()) s.insert(p);
+            else s.erase(p);
+        }
+        
+        return vector<int>(s.begin(),s.end());
+    }
+};
+```
+
+```c++
+class Solution {
+public:
+    vector<int> singleNumber(vector<int>& nums) {
+        vector<int> res(2,0);
+        int i=0;
+        for(auto p:nums)
+            i^=p;
+        
+        int label=i&(-i);
+        
+        for(auto p:nums){
+            if((label&p)==0) res[0]^=p;
+            else  res[1]^=p;
+        }
+        return res;
+    }
+};
+```
